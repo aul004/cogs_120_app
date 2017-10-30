@@ -15,32 +15,27 @@
 		    <div class="navbar-header">
 		      <a class="navbar-brand" href="#">AppName</a>
 		    </div>
-			<!--<ul class="nav navbar-nav">
-		      <li class="active"><a href="#">Home</a></li>
-		      <li><a href="#">Page 1</a></li>
-		      <li><a href="#">Page 2</a></li>
-		      <li><a href="#">Page 3</a></li>
-		    </ul> -->
 		  </div>
 		</nav>
 
 		<nav class="navbar navbar-default navbar-fixed-bottom">
 		  <div class="container-fluid">
 		    <ul class="nav navbar-nav">
-		      <li class="active"><a href="#">Home</a></li>
-		      <li><a href="#">Profile</a></li>
-		      <li><a href="#">Favorites</a></li>
-		      <li><a href="#">Search</a></li>
-		      <li><a href="#">Settings</a></li>
+		      <li class="active"><a href="home.html">Home</a></li>
+		      <li><a href="profile.html">Profile</a></li>
+		      <li><a href="faves.html">Favorites</a></li>
+		      <li><a href="search.html">Search</a></li>
+		      <li><a href="settings.html">Settings</a></li>
 		    </ul>
 		  </div>
 		</nav>
 
 		<div class="container">
 		  <h3>&nbsp;</h3>
-		  <p>words and words and words</p>
-		  <form>
-		  	<input type="text" placeholder="Search..." style="width:90%"></input><button>Search</button>
+<!-- 		  <form> -->
+			<div class="container">
+		  	<input type="text" placeholder="Search..." style="width:90%"></input>
+		  	<a href="search.html"><button>Search</button></a>
 		  	<div class="dropdown">
 			  <button class="dropdown-toggle" type="button" data-toggle="dropdown" style="width:100%">
 			  	Filter
@@ -52,19 +47,24 @@
 			    <li><a href="#">Dietary Preferences</a></li>
 			  </ul>
 			</div>
-		  </form>
-
+		</div>
+		  <!-- </form> -->
+		  <div class="container">
+			<p>This is an app that does things for you.</p>
+		</div>
+		<div class="container">
 		  <table style="width:100%">
 		  	<tr>
-		  		<td class="text-center" style="width:50%"><button>Quick</button></td>
-		  		<td class="text-center" style="width:50%"><button>Cheap</button></td>
+		  		<td class="text-center" style="width:50%"><a href="category.html"><button>Quick</button></a></td>
+		  		<td class="text-center" style="width:50%"><a href="category.html"><button>Cheap</button></a></td>
 		  	</tr>
 		  	<tr>
-		  		<td class="text-center" style="width:50%"><button>Fancy</button></td>
-		  		<td class="text-center" style="width:50%"><button>Casual</button></td>
+		  		<td class="text-center" style="width:50%"><a href="category.html"><button>Fancy</button></a></td>
+		  		<td class="text-center" style="width:50%"><a href="category.html"><button>Casual</button></a></td>
 		  	</tr>
 		  </table>
 		</div>
+	</div>
 
 	</body>
 </html>
